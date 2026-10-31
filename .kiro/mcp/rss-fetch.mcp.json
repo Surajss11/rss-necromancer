@@ -1,0 +1,12 @@
+{
+  "name": "rss-fetch",
+  "description": "Optional MCP server sketch for server-side feed fetch (avoids browser CORS). Not required for the GH Pages demo.",
+  "tools": [
+    {
+      "name": "fetch_feed",
+      "input": { "url": "string" },
+      "output": { "title": "string", "items": "ParsedItem[]" },
+      "notes": "Must enforce the same SSRF allowlist as src/lib/feeds/fetch.ts"
+    }
+  ]
+}

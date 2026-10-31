@@ -1,0 +1,8 @@
+{
+  "name": "before-pr-pbt",
+  "description": "Run property-test subset before opening a PR.",
+  "triggers": ["beforePR"],
+  "actions": [
+    { "type": "command", "command": "pnpm test" }
+  ]
+}

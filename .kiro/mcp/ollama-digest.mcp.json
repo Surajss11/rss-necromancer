@@ -1,0 +1,11 @@
+{
+  "name": "ollama-digest",
+  "description": "Optional local LLM digests via Ollama MCP. Core app uses heuristics so judges need no GPU.",
+  "tools": [
+    {
+      "name": "summarize_items",
+      "input": { "titles": "string[]", "snippets": "string[]" },
+      "output": { "brief": "string" }
+    }
+  ]
+}

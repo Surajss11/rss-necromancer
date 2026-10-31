@@ -1,0 +1,16 @@
+{
+  "name": "on-commit-readme-toc",
+  "description": "Before commit, ensure README still documents /.kiro and demo steps.",
+  "triggers": ["preCommit"],
+  "actions": [
+    {
+      "type": "checklist",
+      "items": [
+        "README mentions /.kiro specs, steering, hooks",
+        "Sample crypt steps present",
+        "LICENSE is MIT and not gitignored",
+        ".kiro is tracked (not in .gitignore)"
+      ]
+    }
+  ]
+}

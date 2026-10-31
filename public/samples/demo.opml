@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Necromancer starter crypt</title>
+  </head>
+  <body>
+    <outline text="Samples" title="Samples">
+      <outline type="rss" text="Haunted Tech Digest" title="Haunted Tech Digest"
+        xmlUrl="samples/demo-news.xml" htmlUrl="https://example.com/haunted-tech"/>
+      <outline type="rss" text="Crypt Keeper Alerts" title="Crypt Keeper Alerts"
+        xmlUrl="samples/demo-crypto.xml" htmlUrl="https://example.com/crypt-keeper"/>
+    </outline>
+  </body>
+</opml>

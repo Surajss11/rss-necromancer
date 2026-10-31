@@ -1,0 +1,10 @@
+{
+  "name": "on-save-lint-typecheck",
+  "description": "When a TS/TSX file is saved, remind agent to run oxlint and keep types green.",
+  "triggers": ["onSave"],
+  "globs": ["src/**/*.{ts,tsx}"],
+  "actions": [
+    { "type": "command", "command": "pnpm exec oxlint src --quiet" },
+    { "type": "note", "text": "If types drift, run pnpm exec tsc -b --pretty false" }
+  ]
+}

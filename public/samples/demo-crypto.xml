@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Crypt Keeper Alerts</title>
+  <link href="https://example.com/crypt-keeper" rel="alternate"/>
+  <id>urn:rss-necromancer:crypt-keeper</id>
+  <updated>2026-10-30T12:00:00Z</updated>
+  <entry>
+    <title>Claim your free mint — connect wallet immediately before deadline tomorrow</title>
+    <link href="https://example.com/crypt-keeper/free-mint"/>
+    <id>urn:rss-necromancer:free-mint</id>
+    <updated>2026-10-30T11:00:00Z</updated>
+    <summary>Urgent: claim free mint, connect your wallet and send 0.05 eth to cover gas. Guaranteed double your money.</summary>
+  </entry>
+  <entry>
+    <title>Open bounty: $5,000 pool for feed parsers — deadline 15 Nov 2026</title>
+    <link href="https://example.com/crypt-keeper/bounty"/>
+    <id>urn:rss-necromancer:bounty</id>
+    <updated>2026-10-29T09:00:00Z</updated>
+    <summary>Reward pool of $5,000 USDC. Deadline 15 Nov 2026. No seed phrase required.</summary>
+  </entry>
+  <entry>
+    <title>Protocol status update: validators healthy</title>
+    <link href="https://example.com/crypt-keeper/status"/>
+    <id>urn:rss-necromancer:status</id>
+    <updated>2026-10-28T08:00:00Z</updated>
+    <summary>Routine maintenance complete. No action needed.</summary>
+  </entry>
+</feed>

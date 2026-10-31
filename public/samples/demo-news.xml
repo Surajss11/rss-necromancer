@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Haunted Tech Digest</title>
+    <link>https://example.com/haunted-tech</link>
+    <description>Sample RSS for RSS Necromancer demo</description>
+    <item>
+      <title>Why RSS still matters in 2026</title>
+      <link>https://example.com/haunted-tech/rss-matters</link>
+      <guid>https://example.com/haunted-tech/rss-matters</guid>
+      <pubDate>Wed, 29 Oct 2026 10:00:00 GMT</pubDate>
+      <description>Open feeds beat algorithmic timelines. Resurrect your reading list.</description>
+    </item>
+    <item>
+      <title>Local-first readers are rising from the grave</title>
+      <link>https://example.com/haunted-tech/local-first</link>
+      <guid>https://example.com/haunted-tech/local-first</guid>
+      <pubDate>Tue, 28 Oct 2026 15:30:00 GMT</pubDate>
+      <description>SQLite in the browser means your archive never leaves your machine.</description>
+    </item>
+  </channel>
+</rss>
